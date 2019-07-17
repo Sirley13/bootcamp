@@ -15,8 +15,27 @@ class Dino:
         self.patas=self.patas - cant_de_patas
 
 mar = Dino("marck", "verde", 4, "indefinido")
-mar.saludar()
+mar.saludar()  # accion/metodos termina con parentesis.
 car= Dino("carlos", "lila", 4,"macho")
 mar.saludar()
 car.saludar()
+mar.corta_pata()
+car.saludar()
+
+######### herencia ###############
+ 
+class Trex (Dino):
+
+    def __init__ (self, nombre, patas=8,color=None):
+        self.nombre = nombre
+        self.patas = patas
+        self.color = color
+print("hola soy un Trex y me llamo", self.nombre)
+
+ricardo = Trex("ricardro el Trex ")
+print(ricardo.ojos)
+ricardo.saludar()
+ricardo.genero()
+ricardo.esta_vivo()
+ricardo.saludar()
  
