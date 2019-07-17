@@ -1,0 +1,1 @@
+### stackoverflow = solucionador de problemas
