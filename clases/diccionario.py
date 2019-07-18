@@ -20,4 +20,4 @@ def p (titpel):
 print(p("MOANA"))
 
 
- 
+ ######################## pip install gjango ########################
